@@ -13,7 +13,7 @@ pipeline{
 	}
 		stage('deployment'){
 		steps{
-			sh 'cp target/netflix.war /home/rahul/devops/apache-tomcat-9.0.88/webapps'}}
+			sh 'cp target/netflix-1.0-SNAPSHOT.jar /home/rahul/devops/apache-tomcat-9.0.88/webapps'}}
 }
 
 }
